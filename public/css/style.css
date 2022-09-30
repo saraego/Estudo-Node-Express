@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+.navbar{
+    padding:1.2rem;
+    box-shadow: 0 6px 10px #CCC;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar .nav-item .nav-link {
+   color: white;
+   font-weight: bold;
+   padding: 10px 25px;
+}
+
+.nav-link.btn.btn-primary:hover{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+
+.nav-item {
+    margin:  0 15px;
+}
+
+/* Banner */
+#top-container{
+    padding:110px ;
+    background-color:#F7F9FC;
+    box-shadow: 0 6px 10px #CCC;
+    margin-bottom: 50px;
+}
+#main-title{
+    font-size: 3rem;
+    padding: 30px 0;
+}
+#main-subtitle{
+    font-size: 1.2rem;
+    padding-bottom: 90px;
+}
+
+/* Banner / Search*/
+
+#search-form{
+    padding: 30px 100px;
+}
+
+.col-md-10, .col-md-2{
+    padding: 0;
+}
+#search-form input, #search-form button{
+    width: 100%;
+    height: 55px;
+    border-radius: 0;
+    font-size: 18px;
+}
+#search-form button:hover, .list-group-item a:hover, #form-box button:hover{
+    background-color: white;
+    color: #007bff;
+    font-weight: bold;
+   border-color: #007bff;
+    box-shadow: 0px 2px 10px #ccc;
+}
+
+/*Lista*/
+#jobs-container{
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+
+#job-list .list-group-item{
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    padding: 15px 80px; 
+    height: 135px;
+}
+
+#job-list .list-group-item p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#job-list .list-group-item.new-job {
+    border: none;
+    background-color: #ff9900;
+}
+
+#job-list-title{
+    margin-bottom: 35px;
+
+}
+
+img{
+    width: 90px;
+    border:1px solid #212529 ;
+    border-radius:50% ;
+    background-color: white;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 44px);
+}
+
+
+.list-group-item a {
+   position: absolute;
+   right: 20px;
+   top: 35px;
+   height: 50px;
+   line-height: 35px;
+   border-radius: 0;
+}
+
+.new-job-label {
+    background-color: #FFD500;
+    color: #4d5154;
+    text-transform:  uppercase;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+    display: none;
+}
+.new-job .new-job-label{
+    display: block;
+}
+
+
+/*  addiconando jobs*/
+
+#add-form-container{
+    margin-top: 150px;
+}
+#form-box{
+    padding: 50px;
+    box-shadow: 0 1px 5px rgb(0, 0, 0,.15);
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 100px;
+   
+}
+
+#add-form-container h2{
+    font-weight: bold;
+    font-size: 24px;
+margin-bottom: 30px;
+}
+#add-form-container label{
+    font-weight: bold;
+}
+#add-form-container form input, #add-form-container form textarea {
+    border: 2px solid #CCC;
+    background-color: #f8f9fa;
+    outline:red;
+}
+#form-box button{
+    height: 50px;
+    width: 200px;
+   border-radius: 0;
+   margin-top: 20px;font-weight: bold;
+}
+#form-box button:active{
+    opacity: 0.5;
+}
+
+
+
+/* VIERW */
+
+#job-view-container{
+    margin-top: 100px;
+
+}
+#job-view-container h1{
+    margin-bottom: 30px;
+}
+#img-container{
+    margin-top: 20px;
+    margin-bottom:30px ;
+}
+
+#img-container img{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #212529;
+    position: relative;
+   left: 7px;
+}
+.job-desc{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold{
+    font-weight: bold;
+}
+.main-color{
+    color:#007bff;
+}
+
+.back-link{
+    border:1px solid #007bff;
+    padding: 5px 10px;
+    transition: .5s;
+    
+}
+
+.back-link:hover{
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width:425px){
+    #navbarNav{
+        text-align: center;
+    }
+
+    #top-container{
+        padding: 50px;
+        padding-top: 100px;
+    }
+    #main-title{
+        font-size: 2.2rem;
+    }
+    #main-subtitle{
+        font-size: 1.5rem;
+    }
+
+    #search-form{
+        padding: 0;
+    }
+
+    #jobs-container{
+        padding: 20px;
+    }
+    .list-group-item{
+        padding: 15px 85px;
+    }
+    .list-group-item h2{
+        font-size: 1.2rem;
+        width: 83%;
+    }
+    .list-group-item img{
+        width: 50px;
+        left: 15px;
+        top: calc(50% - 25px) ;
+    }
+    .new-job .new-job-label{
+        display: none;
+    }
+}

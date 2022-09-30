@@ -1,8 +1,8 @@
 # Enconrtre seu job
 
-<img src="./node_perfil/foto1.png" width="400" alt="tela-inicial">
-<img src="./node_perfil/foto2.png" width="400" alt="tela-de-cadastro-vagas">
-<img src="./node_perfil/foto3.png" width="400" alt="tela-com-resposivo">
+<img src="node_perfil/foto1.png" width="400" alt="tela-inicial">
+<img src="node_perfil/foto2.png" width="400" alt="tela-de-cadastro-vagas">
+<img src="node_perfil/foto3.png" width="400" alt="tela-com-resposivo">
 
 > Resultado do projeto .
 
@@ -29,7 +29,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./node_perfil/sarae.jpg" width="100px;" alt="Foto do Saraego Felix no GitHub"/><br>
+        <img src="node_perfil/sarae.jpg" width="100px;" alt="Foto do Saraego Felix no GitHub"/><br>
         <sub>
           <b>Saraego Felix</b>
         </sub>
